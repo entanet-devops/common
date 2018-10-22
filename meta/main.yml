@@ -17,6 +17,9 @@ galaxy_info:
     - entanet
 
 dependencies: 
-  - entanet-devops.upgrade
-  - entanet-devops.consul
-  - entanet-devops.salt
+  - src: entanet-devops.upgrade
+    version: 1.0.0
+  - src: entanet-devops.consul
+    version: 1.0.0
+  - src: entanet-devops.salt
+    version: 1.0.0
