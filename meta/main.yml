@@ -1,0 +1,20 @@
+galaxy_info:
+  author: DevOps
+  description: Common role
+  company: Entanet
+
+  license: BSD
+
+  min_ansible_version: 2.5
+
+  platforms:
+  - name: Ubuntu
+    versions:
+      - bionic
+
+  galaxy_tags:
+    - common
+    - entanet
+
+dependencies: 
+  - entanet-devops.consul
