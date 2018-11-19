@@ -29,3 +29,5 @@ dependencies:
     version: 1.0.3
   - src: entanet_devops.salt
     version: 1.0.0
+  - src: newrelic.newrelic-infra
+    version: 0.5.0
