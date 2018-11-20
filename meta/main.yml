@@ -17,6 +17,8 @@ galaxy_info:
     - entanet
 
 dependencies: 
+  - src: entanet_devops.apt_get_wrapper
+    version: 1.0.0
   - src: entanet_devops.upgrade
     version: 1.0.0
   - src: entanet_devops.packages
