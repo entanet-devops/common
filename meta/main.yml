@@ -30,6 +30,6 @@ dependencies:
   - src: entanet_devops.consul
     version: 1.0.3
   - src: entanet_devops.salt
-    version: 1.0.0
+    version: 1.0.1
   - src: newrelic.newrelic-infra
     version: 0.5.0
