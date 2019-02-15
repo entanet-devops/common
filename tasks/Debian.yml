@@ -8,5 +8,5 @@
   replace:
     path: /etc/cloud/cloud.cfg.d/01_debian_cloud.cfg
     regexp: 'manage_etc_hosts:.*'
-    line: 'manage_etc_hosts: false'
+    replace: 'manage_etc_hosts: false'
   when: debian_cloud_file.stat.exists == True
