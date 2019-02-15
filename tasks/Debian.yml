@@ -1,0 +1,12 @@
+---
+- name: Check that the somefile.conf exists
+  stat:
+    path: /etc/cloud/cloud.cfg.d/01_debian_cloud.cfg
+  register: debian_cloud_file
+
+- name:
+  replace:
+    path: /etc/cloud/cloud.cfg.d/01_debian_cloud.cfg
+    regexp: 'manage_etc_hosts:.*'
+    line: 'manage_etc_hosts: false'
+  when: debian_cloud_file.stat.exists == True
