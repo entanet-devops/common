@@ -1,5 +1,5 @@
 ---
-- name: Check that the somefile.conf exists
+- name: Check if debian cloud file exists
   stat:
     path: /etc/cloud/cloud.cfg.d/01_debian_cloud.cfg
   register: debian_cloud_file
