@@ -24,11 +24,11 @@ dependencies:
   - src: entanet_devops.packages
     version: 1.0.0
   - src: entanet_devops.s3_copy
-    version: 1.0.0
+    version: 1.0.2
   - src: entanet_devops.generate_sign_cert
     version: 1.0.0
   - src: entanet_devops.consul
-    version: 1.0.4
+    version: 1.0.5
   - src: entanet_devops.salt
     version: 1.0.1
   - src: entanet_devops.rsyslog
