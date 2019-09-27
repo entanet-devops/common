@@ -29,6 +29,8 @@ dependencies:
     version: 1.0.0
   - src: entanet_devops.consul
     version: 1.0.5
+  - src: entanet_devops.salt	
+    version: 1.0.2
   - src: entanet_devops.rsyslog
     version: 1.0.0
   - src: entanet_devops.filebeat
