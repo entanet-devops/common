@@ -37,3 +37,5 @@ dependencies:
     version: 1.0.1
   - src: newrelic.newrelic-infra
     version: 0.5.0
+  - src: entanet_devops.new-relic-apm
+    version: 1.0.6
