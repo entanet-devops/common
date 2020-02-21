@@ -22,7 +22,7 @@ dependencies:
   - src: entanet_devops.upgrade
     version: 1.0.0
   - src: entanet_devops.packages
-    version: 1.0.1
+    version: 1.0.2
   - src: entanet_devops.s3_copy
     version: 1.0.2
   - src: entanet_devops.generate_sign_cert
