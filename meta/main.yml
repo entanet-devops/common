@@ -33,3 +33,5 @@ dependencies:
     version: 1.0.0
   - src: entanet_devops.filebeat
     version: 1.0.2
+  - src: newrelic.newrelic-infra
+    version: 0.5.0
