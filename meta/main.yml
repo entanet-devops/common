@@ -28,7 +28,7 @@ dependencies:
   - src: entanet_devops.generate_sign_cert
     version: 1.0.0
   - src: entanet_devops.salt
-    version: 1.0.2
+    version: 1.0.4
   - src: entanet_devops.rsyslog
     version: 1.0.0
   - src: entanet_devops.filebeat
