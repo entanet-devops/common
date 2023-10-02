@@ -17,21 +17,21 @@ galaxy_info:
     - entanet
 
 dependencies: 
-  - src: entanet_devops.apt_get_wrapper
-    version: 1.0.1
-  - src: entanet_devops.upgrade
-    version: 1.0.0
-  - src: entanet_devops.packages
-    version: 1.0.3
-  - src: entanet_devops.s3_copy
-    version: 1.0.2
-  - src: entanet_devops.generate_sign_cert
-    version: 1.0.0
-  - src: entanet_devops.salt
-    version: 1.0.4
-  - src: entanet_devops.rsyslog
-    version: 1.0.0
-  - src: entanet_devops.filebeat
-    version: 1.0.2
+  - src: https://github.com/entanet-devops/apt-get-wrapper
+    version: "1.0.1"
+  - src: https://github.com/entanet-devops/upgrade
+    version: "1.0.0"
+  - src: https://github.com/entanet-devops/packages
+    version: "1.0.3"
+  - src: https://github.com/entanet-devops/s3-copy
+    version: "1.0.2"
+  - src: https://github.com/entanet-devops/generate-sign-cert
+    version: "1.0.0"
+  - src: https://github.com/entanet-devops/salt
+    version: "1.0.4"
+  - src: https://github.com/entanet-devops/rsyslog
+    version: "1.0.0"
+  - src: https://github.com/entanet-devops/filebeat
+    version: "1.0.2"
   - src: newrelic.newrelic-infra
-    version: 0.5.0
+    version: "0.5.0"
