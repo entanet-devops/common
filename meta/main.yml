@@ -27,8 +27,6 @@ dependencies:
     version: "1.0.2"
   - src: https://github.com/entanet-devops/generate-sign-cert
     version: "1.0.0"
-  - src: https://github.com/entanet-devops/salt
-    version: "1.0.4"
   - src: https://github.com/entanet-devops/rsyslog
     version: "1.0.0"
   - src: https://github.com/entanet-devops/filebeat
